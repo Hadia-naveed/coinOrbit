@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { FaSpinner } from 'react-icons/fa';
 
 const Loader = () => {
   return (
-    <div>
-      
+    <div className="flex justify-center items-center h-40">
+      <FaSpinner className="animate-spin text-blue-500 text-4xl" />
     </div>
-  )
-}
+  );
+};
 
-export default Loader
+export default Loader;
