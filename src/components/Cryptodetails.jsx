@@ -8,7 +8,7 @@ import {
 } from '../services/cryptoApi';
 import { AiOutlineDollarCircle, AiOutlineThunderbolt, AiOutlineTrophy, AiOutlineFund, AiOutlineExclamationCircle, AiOutlineCheckCircle } from 'react-icons/ai';
 import { MdOutlineBolt } from 'react-icons/md';
-import LineChart from './LineChart';
+import LineChart from './Linechart';
 import Loader from './Loader';
 
 const CryptoDetails = () => {
